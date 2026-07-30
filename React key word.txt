@@ -1,0 +1,31 @@
+npm create vite@latest my-app -- --template react
+
+
+react
+js
+
+cd my-app
+npm install
+npm run dev
+
+
+Notes:
+
+UseState: A React Hook that lets you add state (variables that change over time) to functional components
+useRef: Another React Hook that creates a reference object.
+useEffect → for running side effects in components (like fetching data, timers, subscriptions, or reacting to state/prop changes).
+
+
+
+let&const are same but
+
+let exampale:
+let count = 1;
+count = 2;  // ✅ allowed
+console.log(count); // 2
+  
+  const exampale:
+  const pi = 3.14;
+pi = 3.1416; // ❌ Error: Assignment to constant variable
+
+
